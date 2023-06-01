@@ -13,7 +13,7 @@ class MainApp(QMainWindow):
     def __init__(self):
         super().__init__()
 
-        self.resize(500, 200)
+        self.setFixedSize(465, 170)
 
         self.video_label = QLabel("File Video:", self)
         self.video_label.move(20, 20)
